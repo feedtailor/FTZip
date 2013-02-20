@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57CB70CA16D4929600047E9D /* FTZipUnzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70B816D4929600047E9D /* FTZipUnzip.h */; };
+		57CB70CB16D4929600047E9D /* FTZipUnzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70B816D4929600047E9D /* FTZipUnzip.h */; };
+		57CB70CC16D4929600047E9D /* FTZipUnzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70B916D4929600047E9D /* FTZipUnzip.m */; };
+		57CB70CD16D4929600047E9D /* FTZipUnzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70B916D4929600047E9D /* FTZipUnzip.m */; };
+		57CB70CE16D4929600047E9D /* FTZipZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70BA16D4929600047E9D /* FTZipZip.h */; };
+		57CB70CF16D4929600047E9D /* FTZipZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70BA16D4929600047E9D /* FTZipZip.h */; };
+		57CB70D016D4929600047E9D /* FTZipZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70BB16D4929600047E9D /* FTZipZip.m */; };
+		57CB70D116D4929600047E9D /* FTZipZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70BB16D4929600047E9D /* FTZipZip.m */; };
+		57CB70D216D4929600047E9D /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70BD16D4929600047E9D /* crypt.h */; };
+		57CB70D316D4929600047E9D /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70BD16D4929600047E9D /* crypt.h */; };
+		57CB70D416D4929600047E9D /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70BE16D4929600047E9D /* ioapi.c */; };
+		57CB70D516D4929600047E9D /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70BE16D4929600047E9D /* ioapi.c */; };
+		57CB70D616D4929600047E9D /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70BF16D4929600047E9D /* ioapi.h */; };
+		57CB70D716D4929600047E9D /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70BF16D4929600047E9D /* ioapi.h */; };
+		57CB70DC16D4929600047E9D /* miniunz.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C216D4929600047E9D /* miniunz.c */; };
+		57CB70DD16D4929600047E9D /* miniunz.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C216D4929600047E9D /* miniunz.c */; };
+		57CB70DE16D4929600047E9D /* minizip.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C316D4929600047E9D /* minizip.c */; };
+		57CB70DF16D4929600047E9D /* minizip.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C316D4929600047E9D /* minizip.c */; };
+		57CB70E016D4929600047E9D /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C416D4929600047E9D /* mztools.c */; };
+		57CB70E116D4929600047E9D /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C416D4929600047E9D /* mztools.c */; };
+		57CB70E216D4929600047E9D /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70C516D4929600047E9D /* mztools.h */; };
+		57CB70E316D4929600047E9D /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70C516D4929600047E9D /* mztools.h */; };
+		57CB70E416D4929600047E9D /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C616D4929600047E9D /* unzip.c */; };
+		57CB70E516D4929600047E9D /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C616D4929600047E9D /* unzip.c */; };
+		57CB70E616D4929600047E9D /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70C716D4929600047E9D /* unzip.h */; };
+		57CB70E716D4929600047E9D /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70C716D4929600047E9D /* unzip.h */; };
+		57CB70E816D4929600047E9D /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C816D4929600047E9D /* zip.c */; };
+		57CB70E916D4929600047E9D /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CB70C816D4929600047E9D /* zip.c */; };
+		57CB70EA16D4929600047E9D /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70C916D4929600047E9D /* zip.h */; };
+		57CB70EB16D4929600047E9D /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB70C916D4929600047E9D /* zip.h */; };
+		57CB710416D4956E00047E9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		57CB710516D4956E00047E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		57CB710616D4956E00047E9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		57CB710C16D4956E00047E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57CB710A16D4956E00047E9D /* InfoPlist.strings */; };
+		57CB710E16D4956E00047E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB710D16D4956E00047E9D /* main.m */; };
+		57CB711216D4956E00047E9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB711116D4956E00047E9D /* AppDelegate.m */; };
+		57CB711416D4956F00047E9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CB711316D4956F00047E9D /* Default.png */; };
+		57CB711616D4956F00047E9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CB711516D4956F00047E9D /* Default@2x.png */; };
+		57CB711816D4956F00047E9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CB711716D4956F00047E9D /* Default-568h@2x.png */; };
+		57CB712416D495A500047E9D /* dummy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712016D495A500047E9D /* dummy.jpeg */; };
+		57CB712516D495A500047E9D /* Sample.zip in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712116D495A500047E9D /* Sample.zip */; };
+		57CB712616D495A500047E9D /* Sample_broken.zip in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712216D495A500047E9D /* Sample_broken.zip */; };
+		57CB712716D495A500047E9D /* Sample_password.zip in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712316D495A500047E9D /* Sample_password.zip */; };
+		57CB712A16D4960E00047E9D /* FTZipTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB712916D4960E00047E9D /* FTZipTest.m */; };
+		57CB712E16D4981D00047E9D /* libFTZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5758BEE51086BF0A00CC9E0F /* libFTZip.a */; };
+		57CB712F16D4982900047E9D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 572CD3091509E43B00B93C21 /* libz.dylib */; };
+		57CB714016D4994A00047E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57CB713E16D4994A00047E9D /* InfoPlist.strings */; };
+		57CB714216D4994A00047E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB714116D4994A00047E9D /* main.m */; };
+		57CB714616D4994A00047E9D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57CB714416D4994A00047E9D /* Credits.rtf */; };
+		57CB714916D4994A00047E9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB714816D4994A00047E9D /* AppDelegate.m */; };
+		57CB714C16D4994A00047E9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CB714A16D4994A00047E9D /* MainMenu.xib */; };
+		57CB715216D4996300047E9D /* libFTZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5750B05C16893223006A4143 /* libFTZip.a */; };
+		57CB715416D4996A00047E9D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CB715316D4996A00047E9D /* libz.dylib */; };
+		57CB715616D4997B00047E9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CB715516D4997B00047E9D /* Cocoa.framework */; };
+		57CB715716D499C900047E9D /* FTZipTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CB712916D4960E00047E9D /* FTZipTest.m */; };
+		57CB715816D499E000047E9D /* dummy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712016D495A500047E9D /* dummy.jpeg */; };
+		57CB715916D499E000047E9D /* Sample.zip in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712116D495A500047E9D /* Sample.zip */; };
+		57CB715A16D499E000047E9D /* Sample_broken.zip in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712216D495A500047E9D /* Sample_broken.zip */; };
+		57CB715B16D499E000047E9D /* Sample_password.zip in Resources */ = {isa = PBXBuildFile; fileRef = 57CB712316D495A500047E9D /* Sample_password.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CB712C16D4981900047E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5758BEE41086BF0A00CC9E0F;
+			remoteInfo = libFTZip_ios;
+		};
+		57CB715016D4995E00047E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5750B04916893223006A4143;
+			remoteInfo = libFTZip_osx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		572CD3091509E43B00B93C21 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5750B05C16893223006A4143 /* libFTZip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFTZip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5758BEE51086BF0A00CC9E0F /* libFTZip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFTZip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CB70B816D4929600047E9D /* FTZipUnzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTZipUnzip.h; sourceTree = "<group>"; };
+		57CB70B916D4929600047E9D /* FTZipUnzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTZipUnzip.m; sourceTree = "<group>"; };
+		57CB70BA16D4929600047E9D /* FTZipZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTZipZip.h; sourceTree = "<group>"; };
+		57CB70BB16D4929600047E9D /* FTZipZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTZipZip.m; sourceTree = "<group>"; };
+		57CB70BD16D4929600047E9D /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		57CB70BE16D4929600047E9D /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		57CB70BF16D4929600047E9D /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		57CB70C016D4929600047E9D /* iowin32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iowin32.c; sourceTree = "<group>"; };
+		57CB70C116D4929600047E9D /* iowin32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iowin32.h; sourceTree = "<group>"; };
+		57CB70C216D4929600047E9D /* miniunz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniunz.c; sourceTree = "<group>"; };
+		57CB70C316D4929600047E9D /* minizip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minizip.c; sourceTree = "<group>"; };
+		57CB70C416D4929600047E9D /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		57CB70C516D4929600047E9D /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		57CB70C616D4929600047E9D /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		57CB70C716D4929600047E9D /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		57CB70C816D4929600047E9D /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		57CB70C916D4929600047E9D /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		57CB710316D4956E00047E9D /* FTZipTest_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTZipTest_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CB710916D4956E00047E9D /* FTZipTest_ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTZipTest_ios-Info.plist"; sourceTree = "<group>"; };
+		57CB710B16D4956E00047E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57CB710D16D4956E00047E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57CB710F16D4956E00047E9D /* FTZipTest_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTZipTest_ios-Prefix.pch"; sourceTree = "<group>"; };
+		57CB711016D4956E00047E9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57CB711116D4956E00047E9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57CB711316D4956F00047E9D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57CB711516D4956F00047E9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57CB711716D4956F00047E9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57CB712016D495A500047E9D /* dummy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dummy.jpeg; sourceTree = "<group>"; };
+		57CB712116D495A500047E9D /* Sample.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Sample.zip; sourceTree = "<group>"; };
+		57CB712216D495A500047E9D /* Sample_broken.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Sample_broken.zip; sourceTree = "<group>"; };
+		57CB712316D495A500047E9D /* Sample_password.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Sample_password.zip; sourceTree = "<group>"; };
+		57CB712816D4960E00047E9D /* FTZipTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTZipTest.h; sourceTree = "<group>"; };
+		57CB712916D4960E00047E9D /* FTZipTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTZipTest.m; sourceTree = "<group>"; };
+		57CB712B16D496C700047E9D /* FTZip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTZip.h; sourceTree = "<group>"; };
+		57CB713416D4994900047E9D /* FTZipTest_osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTZipTest_osx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CB713D16D4994A00047E9D /* FTZipTest_osx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTZipTest_osx-Info.plist"; sourceTree = "<group>"; };
+		57CB713F16D4994A00047E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57CB714116D4994A00047E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57CB714316D4994A00047E9D /* FTZipTest_osx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTZipTest_osx-Prefix.pch"; sourceTree = "<group>"; };
+		57CB714516D4994A00047E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		57CB714716D4994A00047E9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57CB714816D4994A00047E9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57CB714B16D4994A00047E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		57CB715316D4996A00047E9D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		57CB715516D4997B00047E9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5750B05816893223006A4143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5758BEE31086BF0A00CC9E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CB710016D4956E00047E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB712F16D4982900047E9D /* libz.dylib in Frameworks */,
+				57CB712E16D4981D00047E9D /* libFTZip.a in Frameworks */,
+				57CB710416D4956E00047E9D /* UIKit.framework in Frameworks */,
+				57CB710516D4956E00047E9D /* Foundation.framework in Frameworks */,
+				57CB710616D4956E00047E9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CB713116D4994900047E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB715616D4997B00047E9D /* Cocoa.framework in Frameworks */,
+				57CB715416D4996A00047E9D /* libz.dylib in Frameworks */,
+				57CB715216D4996300047E9D /* libFTZip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5758BEE51086BF0A00CC9E0F /* libFTZip.a */,
+				5750B05C16893223006A4143 /* libFTZip.a */,
+				57CB710316D4956E00047E9D /* FTZipTest_ios.app */,
+				57CB713416D4994900047E9D /* FTZipTest_osx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				57CB70B716D4929600047E9D /* FTZip */,
+				57CB710716D4956E00047E9D /* FTZipTest_ios */,
+				57CB713B16D4994A00047E9D /* FTZipTest_osx */,
+				57CB711F16D495A500047E9D /* Test */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CB715316D4996A00047E9D /* libz.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				57CB715516D4997B00047E9D /* Cocoa.framework */,
+				572CD3091509E43B00B93C21 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57CB70B716D4929600047E9D /* FTZip */ = {
+			isa = PBXGroup;
+			children = (
+				57CB712B16D496C700047E9D /* FTZip.h */,
+				57CB70B816D4929600047E9D /* FTZipUnzip.h */,
+				57CB70B916D4929600047E9D /* FTZipUnzip.m */,
+				57CB70BA16D4929600047E9D /* FTZipZip.h */,
+				57CB70BB16D4929600047E9D /* FTZipZip.m */,
+				57CB70BC16D4929600047E9D /* minizip */,
+			);
+			path = FTZip;
+			sourceTree = "<group>";
+		};
+		57CB70BC16D4929600047E9D /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				57CB70BD16D4929600047E9D /* crypt.h */,
+				57CB70BE16D4929600047E9D /* ioapi.c */,
+				57CB70BF16D4929600047E9D /* ioapi.h */,
+				57CB70C016D4929600047E9D /* iowin32.c */,
+				57CB70C116D4929600047E9D /* iowin32.h */,
+				57CB70C216D4929600047E9D /* miniunz.c */,
+				57CB70C316D4929600047E9D /* minizip.c */,
+				57CB70C416D4929600047E9D /* mztools.c */,
+				57CB70C516D4929600047E9D /* mztools.h */,
+				57CB70C616D4929600047E9D /* unzip.c */,
+				57CB70C716D4929600047E9D /* unzip.h */,
+				57CB70C816D4929600047E9D /* zip.c */,
+				57CB70C916D4929600047E9D /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		57CB710716D4956E00047E9D /* FTZipTest_ios */ = {
+			isa = PBXGroup;
+			children = (
+				57CB711016D4956E00047E9D /* AppDelegate.h */,
+				57CB711116D4956E00047E9D /* AppDelegate.m */,
+				57CB710816D4956E00047E9D /* Supporting Files */,
+			);
+			path = FTZipTest_ios;
+			sourceTree = "<group>";
+		};
+		57CB710816D4956E00047E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CB710916D4956E00047E9D /* FTZipTest_ios-Info.plist */,
+				57CB710A16D4956E00047E9D /* InfoPlist.strings */,
+				57CB710D16D4956E00047E9D /* main.m */,
+				57CB710F16D4956E00047E9D /* FTZipTest_ios-Prefix.pch */,
+				57CB711316D4956F00047E9D /* Default.png */,
+				57CB711516D4956F00047E9D /* Default@2x.png */,
+				57CB711716D4956F00047E9D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57CB711F16D495A500047E9D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				57CB712016D495A500047E9D /* dummy.jpeg */,
+				57CB712116D495A500047E9D /* Sample.zip */,
+				57CB712216D495A500047E9D /* Sample_broken.zip */,
+				57CB712316D495A500047E9D /* Sample_password.zip */,
+				57CB712816D4960E00047E9D /* FTZipTest.h */,
+				57CB712916D4960E00047E9D /* FTZipTest.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		57CB713B16D4994A00047E9D /* FTZipTest_osx */ = {
+			isa = PBXGroup;
+			children = (
+				57CB714716D4994A00047E9D /* AppDelegate.h */,
+				57CB714816D4994A00047E9D /* AppDelegate.m */,
+				57CB714A16D4994A00047E9D /* MainMenu.xib */,
+				57CB713C16D4994A00047E9D /* Supporting Files */,
+			);
+			path = FTZipTest_osx;
+			sourceTree = "<group>";
+		};
+		57CB713C16D4994A00047E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CB713D16D4994A00047E9D /* FTZipTest_osx-Info.plist */,
+				57CB713E16D4994A00047E9D /* InfoPlist.strings */,
+				57CB714116D4994A00047E9D /* main.m */,
+				57CB714316D4994A00047E9D /* FTZipTest_osx-Prefix.pch */,
+				57CB714416D4994A00047E9D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5750B04A16893223006A4143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB70CB16D4929600047E9D /* FTZipUnzip.h in Headers */,
+				57CB70CF16D4929600047E9D /* FTZipZip.h in Headers */,
+				57CB70D316D4929600047E9D /* crypt.h in Headers */,
+				57CB70D716D4929600047E9D /* ioapi.h in Headers */,
+				57CB70E316D4929600047E9D /* mztools.h in Headers */,
+				57CB70E716D4929600047E9D /* unzip.h in Headers */,
+				57CB70EB16D4929600047E9D /* zip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5758BEE11086BF0A00CC9E0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB70CA16D4929600047E9D /* FTZipUnzip.h in Headers */,
+				57CB70CE16D4929600047E9D /* FTZipZip.h in Headers */,
+				57CB70D216D4929600047E9D /* crypt.h in Headers */,
+				57CB70D616D4929600047E9D /* ioapi.h in Headers */,
+				57CB70E216D4929600047E9D /* mztools.h in Headers */,
+				57CB70E616D4929600047E9D /* unzip.h in Headers */,
+				57CB70EA16D4929600047E9D /* zip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5750B04916893223006A4143 /* libFTZip_osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5750B05916893223006A4143 /* Build configuration list for PBXNativeTarget "libFTZip_osx" */;
+			buildPhases = (
+				5750B04A16893223006A4143 /* Headers */,
+				5750B05116893223006A4143 /* Sources */,
+				5750B05816893223006A4143 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libFTZip_osx;
+			productName = libBakuZip;
+			productReference = 5750B05C16893223006A4143 /* libFTZip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5758BEE41086BF0A00CC9E0F /* libFTZip_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5758BEE81086BF1A00CC9E0F /* Build configuration list for PBXNativeTarget "libFTZip_ios" */;
+			buildPhases = (
+				5758BEE11086BF0A00CC9E0F /* Headers */,
+				5758BEE21086BF0A00CC9E0F /* Sources */,
+				5758BEE31086BF0A00CC9E0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libFTZip_ios;
+			productName = libBakuZip;
+			productReference = 5758BEE51086BF0A00CC9E0F /* libFTZip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57CB710216D4956E00047E9D /* FTZipTest_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CB711916D4956F00047E9D /* Build configuration list for PBXNativeTarget "FTZipTest_ios" */;
+			buildPhases = (
+				57CB70FF16D4956E00047E9D /* Sources */,
+				57CB710016D4956E00047E9D /* Frameworks */,
+				57CB710116D4956E00047E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CB712D16D4981900047E9D /* PBXTargetDependency */,
+			);
+			name = FTZipTest_ios;
+			productName = FTZipTest_ios;
+			productReference = 57CB710316D4956E00047E9D /* FTZipTest_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CB713316D4994900047E9D /* FTZipTest_osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CB714D16D4994A00047E9D /* Build configuration list for PBXNativeTarget "FTZipTest_osx" */;
+			buildPhases = (
+				57CB713016D4994900047E9D /* Sources */,
+				57CB713116D4994900047E9D /* Frameworks */,
+				57CB713216D4994900047E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CB715116D4995E00047E9D /* PBXTargetDependency */,
+			);
+			name = FTZipTest_osx;
+			productName = FTZipTest_osx;
+			productReference = 57CB713416D4994900047E9D /* FTZipTest_osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FTZip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CB710216D4956E00047E9D /* FTZipTest_ios */,
+				57CB713316D4994900047E9D /* FTZipTest_osx */,
+				5758BEE41086BF0A00CC9E0F /* libFTZip_ios */,
+				5750B04916893223006A4143 /* libFTZip_osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CB710116D4956E00047E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB710C16D4956E00047E9D /* InfoPlist.strings in Resources */,
+				57CB711416D4956F00047E9D /* Default.png in Resources */,
+				57CB711616D4956F00047E9D /* Default@2x.png in Resources */,
+				57CB711816D4956F00047E9D /* Default-568h@2x.png in Resources */,
+				57CB712416D495A500047E9D /* dummy.jpeg in Resources */,
+				57CB712516D495A500047E9D /* Sample.zip in Resources */,
+				57CB712616D495A500047E9D /* Sample_broken.zip in Resources */,
+				57CB712716D495A500047E9D /* Sample_password.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CB713216D4994900047E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB714016D4994A00047E9D /* InfoPlist.strings in Resources */,
+				57CB714616D4994A00047E9D /* Credits.rtf in Resources */,
+				57CB714C16D4994A00047E9D /* MainMenu.xib in Resources */,
+				57CB715816D499E000047E9D /* dummy.jpeg in Resources */,
+				57CB715916D499E000047E9D /* Sample.zip in Resources */,
+				57CB715A16D499E000047E9D /* Sample_broken.zip in Resources */,
+				57CB715B16D499E000047E9D /* Sample_password.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5750B05116893223006A4143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB70CD16D4929600047E9D /* FTZipUnzip.m in Sources */,
+				57CB70D116D4929600047E9D /* FTZipZip.m in Sources */,
+				57CB70D516D4929600047E9D /* ioapi.c in Sources */,
+				57CB70DD16D4929600047E9D /* miniunz.c in Sources */,
+				57CB70DF16D4929600047E9D /* minizip.c in Sources */,
+				57CB70E116D4929600047E9D /* mztools.c in Sources */,
+				57CB70E516D4929600047E9D /* unzip.c in Sources */,
+				57CB70E916D4929600047E9D /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5758BEE21086BF0A00CC9E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB70CC16D4929600047E9D /* FTZipUnzip.m in Sources */,
+				57CB70D016D4929600047E9D /* FTZipZip.m in Sources */,
+				57CB70D416D4929600047E9D /* ioapi.c in Sources */,
+				57CB70DC16D4929600047E9D /* miniunz.c in Sources */,
+				57CB70DE16D4929600047E9D /* minizip.c in Sources */,
+				57CB70E016D4929600047E9D /* mztools.c in Sources */,
+				57CB70E416D4929600047E9D /* unzip.c in Sources */,
+				57CB70E816D4929600047E9D /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CB70FF16D4956E00047E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB710E16D4956E00047E9D /* main.m in Sources */,
+				57CB711216D4956E00047E9D /* AppDelegate.m in Sources */,
+				57CB712A16D4960E00047E9D /* FTZipTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CB713016D4994900047E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB714216D4994A00047E9D /* main.m in Sources */,
+				57CB714916D4994A00047E9D /* AppDelegate.m in Sources */,
+				57CB715716D499C900047E9D /* FTZipTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CB712D16D4981900047E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5758BEE41086BF0A00CC9E0F /* libFTZip_ios */;
+			targetProxy = 57CB712C16D4981900047E9D /* PBXContainerItemProxy */;
+		};
+		57CB715116D4995E00047E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5750B04916893223006A4143 /* libFTZip_osx */;
+			targetProxy = 57CB715016D4995E00047E9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CB710A16D4956E00047E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CB710B16D4956E00047E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57CB713E16D4994A00047E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CB713F16D4994A00047E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57CB714416D4994A00047E9D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CB714516D4994A00047E9D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		57CB714A16D4994A00047E9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CB714B16D4994A00047E9D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5750B05A16893223006A4143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				OTHER_CFLAGS = "-Dunix";
+				PRODUCT_NAME = FTZip;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-sizeof-pointer-memaccess";
+			};
+			name = Debug;
+		};
+		5750B05B16893223006A4143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				OTHER_CFLAGS = "-Dunix";
+				PRODUCT_NAME = FTZip;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-sizeof-pointer-memaccess";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5758BEE61086BF0A00CC9E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				OTHER_CFLAGS = "-Dunix";
+				PRODUCT_NAME = FTZip;
+				WARNING_CFLAGS = "-Wno-sizeof-pointer-memaccess";
+			};
+			name = Debug;
+		};
+		5758BEE71086BF0A00CC9E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				OTHER_CFLAGS = "-Dunix";
+				PRODUCT_NAME = FTZip;
+				WARNING_CFLAGS = "-Wno-sizeof-pointer-memaccess";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		57CB711A16D4956F00047E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTZipTest_ios/FTZipTest_ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "FTZipTest_ios/FTZipTest_ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57CB711B16D4956F00047E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTZipTest_ios/FTZipTest_ios-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "FTZipTest_ios/FTZipTest_ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57CB714E16D4994A00047E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTZipTest_osx/FTZipTest_osx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "FTZipTest_osx/FTZipTest_osx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57CB714F16D4994A00047E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTZipTest_osx/FTZipTest_osx-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "FTZipTest_osx/FTZipTest_osx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5750B05916893223006A4143 /* Build configuration list for PBXNativeTarget "libFTZip_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5750B05A16893223006A4143 /* Debug */,
+				5750B05B16893223006A4143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5758BEE81086BF1A00CC9E0F /* Build configuration list for PBXNativeTarget "libFTZip_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5758BEE61086BF0A00CC9E0F /* Debug */,
+				5758BEE71086BF0A00CC9E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CB711916D4956F00047E9D /* Build configuration list for PBXNativeTarget "FTZipTest_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CB711A16D4956F00047E9D /* Debug */,
+				57CB711B16D4956F00047E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57CB714D16D4994A00047E9D /* Build configuration list for PBXNativeTarget "FTZipTest_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CB714E16D4994A00047E9D /* Debug */,
+				57CB714F16D4994A00047E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FTZip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
